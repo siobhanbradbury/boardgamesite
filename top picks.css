@@ -1,6 +1,7 @@
 header {
 text-align: center;
 }
+
 body {
   background: honeydew;
 }
@@ -11,7 +12,18 @@ h1 {
 }
 
 
+ul {
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: helvetica;
 
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  color: white
+}
 
 #cf {
   position:relative;
@@ -28,25 +40,6 @@ h1 {
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-}
-
-.container {
-    position: relative;
-}
-
-.center {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align:center;
-    font-size: 18px;
-}
-
-img {<
-    width: 100%;
-    height: auto;
-
 }
 
 #cf img.top:hover {
