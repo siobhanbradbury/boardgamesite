@@ -1,0 +1,19 @@
+header {
+text-align: center;
+}
+body {
+  background: honeydew;
+}
+h1 {
+  font-size: 35px;
+  color: black;
+  font-family: 'Font Awesome';
+  text-align: center;
+}
+
+h2 {
+  font-size: 23px;
+  color: black;
+  font-family: 'font awesome';
+
+}
